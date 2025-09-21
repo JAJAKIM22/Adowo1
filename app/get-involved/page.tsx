@@ -1,9 +1,9 @@
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { DonationModal } from "@/components/donation-modal"
-import { VolunteerModal } from "@/components/volunteer-modal"
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { DonationModal } from "@/components/donation-modal";
+import { VolunteerModal } from "@/components/volunteer-modal";
 
 export default function GetInvolvedPage() {
   return (
@@ -13,9 +13,12 @@ export default function GetInvolvedPage() {
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">Get Involved</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+              Get Involved
+            </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Join us in creating positive change in our communities. There are many ways to support our mission.
+              Join us in creating positive change in our communities. There are
+              many ways to support our mission.
             </p>
           </div>
 
@@ -24,7 +27,12 @@ export default function GetInvolvedPage() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
-                    <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="w-5 h-5 text-primary"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -38,7 +46,8 @@ export default function GetInvolvedPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Your financial support helps us expand our programs and reach more people in need.
+                  Your financial support helps us expand our programs and reach
+                  more people in need.
                 </p>
                 <DonationModal />
               </CardContent>
@@ -48,7 +57,12 @@ export default function GetInvolvedPage() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
-                    <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="w-5 h-5 text-primary"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -62,7 +76,8 @@ export default function GetInvolvedPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Join our team of dedicated volunteers and contribute your skills to our programs.
+                  Join our team of dedicated volunteers and contribute your
+                  skills to our programs.
                 </p>
                 <VolunteerModal />
               </CardContent>
@@ -72,7 +87,12 @@ export default function GetInvolvedPage() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
-                    <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="w-5 h-5 text-primary"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -86,10 +106,15 @@ export default function GetInvolvedPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Collaborate with us as an organization to amplify our collective impact.
+                  Collaborate with us as an organization to amplify our
+                  collective impact.
                 </p>
-                <Button variant="outline" className="w-full bg-transparent">
-                  Explore Partnerships
+                <Button
+                  asChild
+                  variant="outline"
+                  className="w-full bg-transparent"
+                >
+                  <a href="mailto:adowocbo@gmail.com">Explore Partnerships</a>
                 </Button>
               </CardContent>
             </Card>
@@ -98,7 +123,12 @@ export default function GetInvolvedPage() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
-                    <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="w-5 h-5 text-primary"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -112,10 +142,15 @@ export default function GetInvolvedPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Sponsor specific programs or events to make a targeted impact in our community.
+                  Sponsor specific programs or events to make a targeted impact
+                  in our community.
                 </p>
-                <Button variant="outline" className="w-full bg-transparent">
-                  Become a Sponsor
+                <Button
+                  asChild
+                  variant="outline"
+                  className="w-full bg-transparent"
+                >
+                  <a href="mailto:adowocbo@gmail.com">Become a Sponsor</a>
                 </Button>
               </CardContent>
             </Card>
@@ -124,7 +159,12 @@ export default function GetInvolvedPage() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
-                    <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="w-5 h-5 text-primary"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -138,10 +178,11 @@ export default function GetInvolvedPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Help spread awareness about our cause and advocate for the communities we serve.
+                  Help spread awareness about our cause and advocate for the
+                  communities we serve.
                 </p>
                 <Button variant="outline" className="w-full bg-transparent">
-                  Join Our Advocacy
+                   <a href="mailto:adowocbo@gmail.com">Join Our Advocacy</a> 
                 </Button>
               </CardContent>
             </Card>
@@ -150,7 +191,12 @@ export default function GetInvolvedPage() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
-                    <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg
+                      className="w-5 h-5 text-primary"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -164,7 +210,8 @@ export default function GetInvolvedPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Share our mission on social media and help us reach more people who can benefit from our programs.
+                  Share our mission on social media and help us reach more
+                  people who can benefit from our programs.
                 </p>
                 <Button variant="outline" className="w-full bg-transparent">
                   Share Our Story
@@ -174,15 +221,18 @@ export default function GetInvolvedPage() {
           </div>
 
           <div className="bg-primary/5 rounded-lg p-8 text-center">
-            <h2 className="text-2xl font-bold mb-4">Ready to Make a Difference?</h2>
+            <h2 className="text-2xl font-bold mb-4">
+              Ready to Make a Difference?
+            </h2>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Every contribution, no matter how small, helps us create positive change in our communities. Join us today
-              and be part of the solution.
+              Every contribution, no matter how small, helps us create positive
+              change in our communities. Join us today and be part of the
+              solution.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <DonationModal />
               <Button variant="outline" size="lg">
-                Contact Us
+                  <a href="/contact"> Contact Us</a>
               </Button>
             </div>
           </div>
@@ -191,5 +241,5 @@ export default function GetInvolvedPage() {
 
       <Footer />
     </main>
-  )
+  );
 }
