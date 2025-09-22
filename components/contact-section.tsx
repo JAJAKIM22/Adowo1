@@ -63,7 +63,7 @@ ${formData.message}
                   <div>
                     <h4 className="font-semibold mb-1">Location</h4>
                     <p className="text-muted-foreground">
-                      Nyamira County, Kenya
+                      Kenya
                     </p>
                   </div>
                 </div>
@@ -93,16 +93,7 @@ ${formData.message}
                 </div>
               </div>
 
-              <div className="mt-8 p-6 bg-gradient-to-br from-primary/5 to-accent/5 rounded-lg">
-                <h4 className="font-semibold mb-2">Office Hours</h4>
-                <p className="text-muted-foreground text-sm">
-                  Monday - Friday: 8:00 AM - 5:00 PM
-                  <br />
-                  Saturday: 9:00 AM - 2:00 PM
-                  <br />
-                  Sunday: Closed
-                </p>
-              </div>
+             
             </div>
 
             <Card>

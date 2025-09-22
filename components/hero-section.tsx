@@ -26,7 +26,7 @@ export function HeroSection() {
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground text-balance mb-8 max-w-3xl mx-auto leading-relaxed">
-            ADOWO is a youth-led community-based organization in Nyamira County committed to transforming lives through
+            ADOWO is a youth-led community-based organization in Kenya committed to transforming lives through
             psychosocial support, youth and women empowerment, gender equality, human rights advocacy, climate
             resilience, and sustainable community development.
           </p>

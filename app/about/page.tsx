@@ -22,7 +22,7 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-lg text-muted-foreground mb-4">
                 ADOWO (Adolescent Development and Welfare Organization) is a youth-led, community-based organization
-                established in Nyamira County, Kenya. We are committed to transforming lives through comprehensive
+                established in  Kenya on 24th September 2020. We are committed to transforming lives through comprehensive
                 psychosocial support, youth and women empowerment, gender equality advocacy, human rights promotion,
                 climate resilience building, and sustainable community development.
               </p>

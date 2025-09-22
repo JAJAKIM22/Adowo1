@@ -48,7 +48,7 @@ export default function ImpactPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6">Community Engagement</h2>
               <p className="text-lg text-muted-foreground mb-4">
-                Our programs have reached thousands of community members across Nyamira County, creating lasting
+                Our programs have reached thousands of community members across Kenya, creating lasting
                 positive change through education, empowerment, and sustainable development initiatives.
               </p>
               <div className="space-y-4">

@@ -38,9 +38,8 @@ export function Footer() {
                 to transforming lives through comprehensive support and empowerment programs.
               </p>
               <div className="text-sm text-background/60">
-                <p>📍 Nyamira County, Kenya</p>
+                <p>📍 Kenya</p>
                 <p>📞 +254734719921</p>
-                <p>📞 +254111240215</p>
                 <p>📧 adowocbo@gmail.com</p>
               </div>
             </div>

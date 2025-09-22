@@ -45,9 +45,9 @@ export default function ContactPage() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">
-                      Nyamira County, Kenya
+                      Kenya
                       <br />
-                      P.O. Box 123, Nyamira
+                      P.O. Box 123, Kenya
                     </p>
                   </CardContent>
                 </Card>
@@ -68,7 +68,7 @@ export default function ContactPage() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">
-                      +254 712 345 678
+                      +254 734 719 921
                       <br />
                       +254 111 240 215
                     </p>
@@ -91,37 +91,12 @@ export default function ContactPage() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">
-                      info@adowo.org
-                      <br />
-                      programs@adowo.org
+                     adowocbo@gmail.com
                     </p>
                   </CardContent>
                 </Card>
 
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="flex items-center gap-3">
-                      <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                        />
-                      </svg>
-                      Office Hours
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">
-                      Monday - Friday: 8:00 AM - 5:00 PM
-                      <br />
-                      Saturday: 9:00 AM - 1:00 PM
-                      <br />
-                      Sunday: Closed
-                    </p>
-                  </CardContent>
-                </Card>
+                
               </div>
             </div>
 
